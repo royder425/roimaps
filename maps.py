@@ -49,7 +49,7 @@ fig.add_child(m)
 #링크 간소화 지정
 link = "<html><head></head><body><div style='width: 170px'><a href='https://roitravel.tistory.com/"
 link_1 ="</a><br><a href='https://roitravel.tistory.com/"
-link_world = "<html><head></head><body><div style='width: 250px'><a href='https://roitravel.tistory.com/"
+link_world = "<html><head></head><body><div style='width: 260px'><a href='https://roitravel.tistory.com/"
 L = target='_blank'
 
 #링크 1개 짜리
@@ -531,14 +531,16 @@ folium.Marker(로스엔젤레스,
               tooltip='로스엔젤레스',
               icon=folium.CustomIcon(미국icon, icon_size=(30, 30))).add_to(m)
 folium.Marker(라스베가스,
-              popup=link_world+"139'>2022.12.07 세계 여행 미국 라스베이거스 1</a>",
+              popup=link_world+"139'>2022.12.07 세계 여행 미국 라스베이거스 1" + link_1 + "140'>2022.12.08 세계 여행 미국 라스베이거스 2" + link_1 + "141'>2022.12.09 세계 여행 미국 라스베이거스 3</a>",
               tooltip='라스베가스',
               icon=folium.CustomIcon(미국icon, icon_size=(30, 30))).add_to(m)
 # 멕시코
 folium.Marker(플라야델카르멘,
+              popup=link_world+"142'>2022.12.10 세계 여행 멕시코 플라야 델 카르멘 1" + link_1 + "143'>2022.12.11 세계 여행 멕시코 플라야 델 카르멘 2" + link_1 + "144'>2022.12.12 세계 여행 멕시코 플라야 델 카르멘 3"+ link_1 + "145'>2022.12.13~15 세계 여행 멕시코 플라야 델 카르멘 4</a>",
               tooltip='플라야 델 카르멘',
               icon=folium.CustomIcon(멕시코icon, icon_size=(30, 30))).add_to(m)
 folium.Marker(칸쿤,
+              popup=link_world+"146'>2022.12.15 세계 여행 멕시코 칸쿤 1" + link_1 + "147'>2022.12.16~17 세계 여행 멕시코 칸쿤 2" + link_1 + "148'>2022.12.18 세계 여행 멕시코 칸쿤 3</a>",
               tooltip='칸쿤',
               icon=folium.CustomIcon(멕시코icon, icon_size=(30, 30))).add_to(m)
 # 스코틀랜드
