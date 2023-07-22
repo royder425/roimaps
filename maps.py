@@ -519,7 +519,7 @@ folium.Marker(몬트리올,
               icon=folium.CustomIcon(캐나다icon, icon_size=(30, 30))).add_to(m)
 # 미국
 folium.Marker(뉴욕,
-              popup=link_world+"129'>2022.11.24~25 세계 여행 미국 뉴욕 1" + link_1 + "130'>2022.11.26 세계 여행 미국 뉴욕 2" + link_1 + "131'>2022.11.27 세계 여행 미국 뉴욕 3" + link_1 + "132'>2022.11.28~29 세계 여행 미국 뉴욕 4</a>",
+              popup=link_world+"129'>2022.11.24~25 세계 여행 미국 뉴욕 1" + link_1 + "130'>2022.11.26 세계 여행 미국 뉴욕 2" + link_1 + "131'>2022.11.27 세계 여행 미국 뉴욕 3" + link_1 + "132'>2022.11.28~29 세계 여행 미국 뉴욕 4" + link_1 + "149'>2022.12.19~20 세계 여행 미국 뉴욕 5" + link_1 + "150'>2022.12.21~22 세계 여행 미국 뉴욕 6</a>",
               tooltip='뉴욕',
               icon=folium.CustomIcon(미국icon, icon_size=(30, 30))).add_to(m)
 folium.Marker(샌프란시스코,
