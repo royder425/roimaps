@@ -545,7 +545,7 @@ folium.Marker(칸쿤,
               icon=folium.CustomIcon(멕시코icon, icon_size=(30, 30))).add_to(m)
 # 스코틀랜드
 folium.Marker(에든버러,
-              popup=link_world+"154'>2022.12.26~27 세계 여행 스코틀랜드 에든버러 1</a>",
+              popup=link_world+"154'>2022.12.26~27 세계 여행 스코틀랜드 에든버러 1" + link_1 + "155'>2022.12.28 세계 여행 스코틀랜드 에든버러 2" + link_1 + "156'>2022.12.29~30 세계 여행 스코틀랜드 에든버러 3</a>",
               tooltip='에든버러',
               icon=folium.CustomIcon(스코틀랜드icon, icon_size=(30, 30))).add_to(m)
 
