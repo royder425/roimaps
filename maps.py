@@ -411,6 +411,7 @@ folium.Marker(프랑크푸르트,
               tooltip='프랑크푸르트',
               icon=folium.CustomIcon(독일icon, icon_size=(30, 30))).add_to(m)
 folium.Marker(자르뷔르켄,
+              popup=link_world+"159'>2023.01.02~09 세계 여행 독일 자르뷔르켄",
               tooltip='자르뷔르켄',
               icon=folium.CustomIcon(독일icon, icon_size=(30, 30))).add_to(m)
 #네덜란드
@@ -420,7 +421,7 @@ folium.Marker(암스테르담,
               icon=folium.CustomIcon(네덜란드icon, icon_size=(30, 30))).add_to(m)
 # 프랑스
 folium.Marker(파리,
-              popup=link_world+"87'>2022.09.28 세계 여행 프랑스 파리 1" + link_1 + "88'>2022.09.29 세계 여행 프랑스 파리 2" + link_1 + "89'>2022.09.30 세계 여행 프랑스 파리 3"+ link_1 + "118'>2022.11.10 세계 여행 프랑스 파리 4"+ link_1 + "119'>2022.11.11 세계 여행 프랑스 파리 5"+ link_1 + "120'>2022.11.12 세계 여행 프랑스 파리 6</a>",
+              popup=link_world+"87'>2022.09.28 세계 여행 프랑스 파리 1" + link_1 + "88'>2022.09.29 세계 여행 프랑스 파리 2" + link_1 + "89'>2022.09.30 세계 여행 프랑스 파리 3"+ link_1 + "118'>2022.11.10 세계 여행 프랑스 파리 4"+ link_1 + "119'>2022.11.11 세계 여행 프랑스 파리 5"+ link_1 +"120'>2022.11.12 세계 여행 프랑스 파리 6"+ link_1 +"157'>2022.12.31 세계 여행 프랑스 파리 7"+ link_1 + "158'>2023.01.02 세계 여행 프랑스 파리 8</a>",
               tooltip='파리',
               icon=folium.CustomIcon(프랑스icon, icon_size=(30, 30))).add_to(m)
 folium.Marker(보르도,
