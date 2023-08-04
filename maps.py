@@ -92,6 +92,7 @@ L = target='_blank'
 진주=35.205153,128.1297905
 함평=35.1126823,126.5355523
 제주도=33.3846216,126.5534925
+고창=35.4358216,126.7020806
 
 #나라별 좌표 설정
 하노이=21.0277644,105.8341598
@@ -277,6 +278,10 @@ folium.Marker(가평,
 folium.Marker(양평,
               popup=link+"41'>2022.07 양평 여행</a>",
               tooltip='양평',
+              icon=folium.CustomIcon(한국icon, icon_size=(30, 30))).add_to(m)
+folium.Marker(고창,
+              popup=link+"162'>2023.04.28~30 고창 여행</a>",
+              tooltip='고창',
               icon=folium.CustomIcon(한국icon, icon_size=(30, 30))).add_to(m)
 
 #링크 여러개개 해외(베트남 여행)
