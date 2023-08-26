@@ -159,6 +159,10 @@ L = target='_blank'
 치앙마이=18.7883439,98.9853008
 방콕=13.7563309,100.5017651
 타이페이=25.0329636,121.5654268
+비엔티안=17.9757058,102.6331035
+방비엥=18.95009,102.44379
+루앙프라방=19.883285,102.1387166
+
 
 #국기
 베트남icon=r'C:\Users\home\Desktop\roimaps\png\베트남.png'
@@ -189,6 +193,7 @@ L = target='_blank'
 마카오icon=r'C:\Users\home\Desktop\roimaps\png\마카오.png'
 태국icon=r'C:\Users\home\Desktop\roimaps\png\태국.png'
 대만icon=r'C:\Users\home\Desktop\roimaps\png\대만.png'
+라오스icon=r'C:\Users\home\Desktop\roimaps\png\라오스.png'
 
 
 #국내 일주
@@ -310,11 +315,25 @@ folium.Marker(오사카,
               icon=folium.CustomIcon(일본icon, icon_size=(30, 30))).add_to(m)
 #태국
 folium.Marker(방콕,
+              popup=link_world+"170'>2023.08.11 태국 방콕 1" + link_1 + "171'>2023.08.12 태국 방콕 2" + link_1 + "172'>2023.08.13~14 태국 방콕 3</a>",
               tooltip='방콕',
               icon=folium.CustomIcon(태국icon, icon_size=(30, 30))).add_to(m)
 folium.Marker(치앙마이,
               tooltip='치앙마이',
               icon=folium.CustomIcon(태국icon, icon_size=(30, 30))).add_to(m)
+# 라오스
+folium.Marker(비엔티안,
+              popup=link_world+"164'>2023.08.05 라오스 출국" + link_1 + "165'>2023.08.05~06 라오스 비엔티안</a>",
+              tooltip='비엔티안',
+              icon=folium.CustomIcon(라오스icon, icon_size=(30, 30))).add_to(m)
+folium.Marker(방비엥,
+              popup=link_world+"166'>2023.08.07 라오스 방비엥 1" + link_1 + "167'>2023.08.08 라오스 방비엥 2" + link_1 + "168'>2023.08.09 라오스 방비엥 3</a>",
+              tooltip='방비엥',
+              icon=folium.CustomIcon(라오스icon, icon_size=(30, 30))).add_to(m)
+folium.Marker(루앙프라방,
+              popup=link_world+"169'>2023.08.10~11 라오스 루앙프라방",
+              tooltip='루앙프라방',
+              icon=folium.CustomIcon(라오스icon, icon_size=(30, 30))).add_to(m)
 #대만
 folium.Marker(타이페이,
               tooltip='타이페이',
