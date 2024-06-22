@@ -163,6 +163,7 @@ link_world = "<html><head></head><body><div style='width: 260px'><a target='_bla
 방비엥=18.95009,102.44379
 루앙프라방=19.883285,102.1387166
 도쿄=35.6761919,139.6503106
+가오슝=22.6305059,120.2974280
 
 #국기
 베트남icon=r'C:\Users\home\Desktop\roimaps\png\베트남.png'
@@ -330,6 +331,10 @@ folium.Marker(루앙프라방,
 #대만
 folium.Marker(타이페이,
               tooltip='타이페이',
+              icon=folium.CustomIcon(대만icon, icon_size=(30, 30))).add_to(m)
+folium.Marker(가오슝,
+              popup=link_world+"223480213869'>2024.06.06 대만 가오슝 1" + link_1 + "223487681278'>2024.06.07 대만 가오슝 2" + link_1 + "223487708185'>2024.06.08 대만 가오슝 3 ~ 귀국</a>",
+              tooltip='가오슝',
               icon=folium.CustomIcon(대만icon, icon_size=(30, 30))).add_to(m)
 #홍콩
 folium.Marker(홍콩,
