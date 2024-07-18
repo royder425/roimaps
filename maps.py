@@ -251,7 +251,7 @@ folium.Marker(거제,
               ,tooltip='거제',
               icon=folium.CustomIcon(한국icon, icon_size=(30, 30))).add_to(m)
 folium.Marker(부산,
-              popup=link+"223219845288'>2022.05.18 국내 일주 부산</a>",
+              popup=link+"223219845288'>2022.05.18 국내 일주 부산" + link_1 + "223496090265'>2024.06.28~6.30 부산 방문기</a>",
               tooltip='부산',
               icon=folium.CustomIcon(한국icon, icon_size=(30, 30))).add_to(m)
 folium.Marker(경주,
