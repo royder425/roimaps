@@ -164,6 +164,8 @@ link_world = "<html><head></head><body><div style='width: 260px'><a target='_bla
 루앙프라방=19.883285,102.1387166
 도쿄=35.6761919,139.6503106
 가오슝=22.6305059,120.2974280
+치바=35.607846,140.125222
+파타야=12.923593,100.882195
 
 #국기
 베트남icon=r'C:\Users\home\Desktop\roimaps\png\베트남.png'
@@ -307,14 +309,24 @@ folium.Marker(도쿄,
               popup=link_world+"223224729372'>2023.09.15 일본 도쿄 1" + link_1 + "223224964518'>2023.09.16 일본 도쿄 2" + link_1 + "223225248938'>2023.09.17 일본 도쿄 3" + link_1 + "223225949011'>2023.09.18 일본 도쿄 4" + link_1 + "223226573350'>2023.09.19 일본 도쿄 5" + link_1 + "223226729220'>2023.09.20 일본 도쿄 6</a>",
               tooltip='도쿄',
               icon=folium.CustomIcon(일본icon, icon_size=(30, 30))).add_to(m)
+folium.Marker(치바,
+              popup=link_world+"223576093851'>2024.08.18 일본 치바 1" + link_1 + "223577033127'>2024.08.19 일본 치바 2</a>",
+              tooltip='치바',
+              icon=folium.CustomIcon(일본icon, icon_size=(30, 30))).add_to(m)
+
 #태국
 folium.Marker(방콕,
-              popup=link_world+"223224708237'>2023.08.11 태국 방콕 1" + link_1 + "223224711695'>2023.08.12 태국 방콕 2" + link_1 + "223224712182'>2023.08.13~14 태국 방콕 3</a>",
+              popup=link_world+"223224708237'>2023.08.11 태국 방콕 1" + link_1 + "223224711695'>2023.08.12 태국 방콕 2" + link_1 + "223224712182'>2023.08.13~14 태국 방콕 3"  + link_1 + "223569390803'>2024.08.09 태국 방콕 1" + link_1 + "223569540213'>2024.08.13 태국 방콕 2" + link_1 + "223569590257'>2024.08.14 태국 방콕 3" + link_1 + "223569625359'>2024.08.15~17 태국 방콕 4</a>",
               tooltip='방콕',
               icon=folium.CustomIcon(태국icon, icon_size=(30, 30))).add_to(m)
 folium.Marker(치앙마이,
               tooltip='치앙마이',
               icon=folium.CustomIcon(태국icon, icon_size=(30, 30))).add_to(m)
+folium.Marker(파타야,
+              popup=link_world+"223569431304'>2024.08.10 태국 파타야 1" + link_1 + "223569466874'>2024.08.11 태국 파타야 2" + link_1 + "223569495559'>2024.08.12 태국 파타야 3</a>",
+              tooltip='파타야',
+              icon=folium.CustomIcon(태국icon, icon_size=(30, 30))).add_to(m)
+
 # 라오스
 folium.Marker(비엔티안,
               popup=link_world+"223224693414'>2023.08.05 라오스 출국" + link_1 + "223224697002'>2023.08.05~06 라오스 비엔티안</a>",
